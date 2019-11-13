@@ -1,0 +1,47 @@
+using System;
+
+namespace ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int speedLimit = 35;
+            int speed = 42;
+
+            if (speed > speedLimit)
+                Console.WriteLine("Slow Now");
+
+            Console.ReadLine();
+
+            bool isTrue;
+
+            isTrue = true;
+
+            if (isTrue)
+                Console.WriteLine("It is True");
+
+            else
+            {
+                Console.WriteLine("It is False");
+            }
+
+            int counter = 1;
+            while (counter > 0)
+            {
+                Console.WriteLine(counter);
+                counter = counter + 1;
+            }
+
+
+            int counter = 60;
+            while (counter >20)
+            {
+                Console.WriteLine(counter);
+                counter = counter - 1;
+            }
+
+            
+        }
+    }
+}
